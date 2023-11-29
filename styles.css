@@ -1,0 +1,19 @@
+body {
+    display: flex;
+}
+
+.side-image {
+    background-image: url('./leaves.jpg');
+    flex: 1;
+}
+
+.main {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.intro, .form, .end {
+    flex: 1;
+    flex-grow: 1;
+}
